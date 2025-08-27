@@ -27,6 +27,16 @@ ejecutamos lo siguiente:
  bash ./scripts/install.sh
 ```
 ---
+**Creación de una entidad un “alias” de una billetera:**
+Para poder desplegar contratos y hacer operaciones de escritura
+en los contratos necesitamos crear una  billetera con fondos en 
+la red de pruebas de la siguiente manera:
+
+```plaintext
+stellar keys generate --global <entity> --network testnet --fund
+stellar keys address <alias>
+```
+---
 **Proyectos ejemplo**
 
 [Hello World🌍](./hello-world/README.md)

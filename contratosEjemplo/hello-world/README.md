@@ -1,10 +1,3 @@
-**Creación de una entidad un “alias” de una billetera:**
-
-```plaintext
-stellar keys generate --global <entity> --network testnet --fund
-stellar keys address <alias>
-```
-
 **Creación del proyecto**
 
 ```plaintext
