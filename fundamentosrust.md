@@ -4,7 +4,7 @@ Todo el código lo correremos en el playground de Rust, no necesitamos instalar 
 
 [**https://play.rust-lang.org/**](https://play.rust-lang.org/)
 
-Primeros pasos en Rust.
+Primeros pasos en Rust
 
 **Pimer hola mundo:**
 
