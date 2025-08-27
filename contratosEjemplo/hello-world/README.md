@@ -1,7 +1,7 @@
 **Creación de una entidad un “alias” de una billetera:**
 
 ```plaintext
-stellar keys generate --global <alias> --network testnet --fund
+stellar keys generate --global <entity> --network testnet --fund
 stellar keys address <alias>
 ```
 
@@ -20,7 +20,7 @@ stellar contract build
 
 <table><tbody><tr><td><strong>Caracter</strong></td><td><strong>Sistema</strong></td><td><strong>se reemplaza por</strong></td></tr><tr><td>*</td><td>Mac y Linux<strong>&nbsp;</strong></td><td><strong>\</strong></td></tr><tr><td>*</td><td>Windows</td><td>`</td></tr><tr><td>@</td><td>Mac y Linux</td><td>/</td></tr><tr><td>@</td><td>Windows</td><td>\</td></tr></tbody></table>
 
-**Despliegue**
+**Despliegue genérico**
 
 ```plaintext
 stellar contract deploy *
@@ -29,8 +29,16 @@ stellar contract deploy *
   --network testnet *
   --alias hello_world
 ```
+**En el caso de github codespace**
+```plaintext
+stellar contract deploy \
+ --wasm target/wasm32v1-none/release/hello_world.wasm \
+  --source <entity> \
+  --network testnet \
+  --alias hello_world
+  ```
 
-**Prueba en testnet**
+**Prueba en testnet genérico**
 
 ```plaintext
 stellar contract invoke *
@@ -42,6 +50,16 @@ hello *
 --to "Stellar"
 ```
 
+**En el caso de github codespace**
+```plaintext
+stellar contract invoke \
+--id hello_world \
+--source <entity> \
+--network testnet \
+-- \
+hello \
+--to "Stellar"
+```
 # Soroban Project
 
 ## Project Structure
