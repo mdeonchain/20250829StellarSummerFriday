@@ -44,3 +44,9 @@ stellar keys address <alias>
 [Data types#️⃣](./data-types/README.md)
 
 [if-else✅](./ifelse/README.md)
+
+[Funciones🕶️](./functions/README.md)
+
+[Biblioteca 📜](./library/README.md)
+
+⬅🏘️[**Principal** ](../README.md) 

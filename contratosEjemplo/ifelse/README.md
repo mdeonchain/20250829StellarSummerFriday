@@ -7,6 +7,8 @@ Se ejecuta en local el test con la instrucción
 cargo test -- --nocapture
 ```
 ---
+⬅️[**Contratos Ejemplo** ](./contratosEjemplo/README.md) 
+---
 # Soroban Project
 
 ## Project Structure

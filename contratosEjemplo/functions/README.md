@@ -1,3 +1,15 @@
+**Funciones en  Soroban**
+
+Ejemplo de invocación de funciones con parametros.
+
+Se ejecuta en local el test con la instrucción
+
+```plaintext
+cargo test -- --nocapture
+```
+---
+⬅️[**Contratos Ejemplo** ](./contratosEjemplo/README.md) 
+---
 # Soroban Project
 
 ## Project Structure
