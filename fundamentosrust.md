@@ -215,4 +215,4 @@ fn main() {
 
 [👉 The Rust Book en español](https://book.rustlang-es.org)
 ---
-🏘️[**Principal** ](../README.md) 
+🏘️[**Principal** ](./README.md) 
