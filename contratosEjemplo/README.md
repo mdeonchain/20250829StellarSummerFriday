@@ -49,4 +49,4 @@ stellar keys address <alias>
 
 [Biblioteca 📜](./library/README.md)
 
-⬅🏘️[**Principal** ](../README.md) 
+🏘️[**Principal** ](../README.md) 
