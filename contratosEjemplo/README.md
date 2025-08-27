@@ -26,3 +26,7 @@ ejecutamos lo siguiente:
 ```plaintext
  bash ./scripts/install.sh
 ```
+---
+**Proyectos ejemplo**
+
+[Hello World🌍](./hello-world/README.md)
