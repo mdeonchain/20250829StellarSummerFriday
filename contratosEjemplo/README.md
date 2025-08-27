@@ -40,3 +40,7 @@ stellar keys address <alias>
 **Proyectos ejemplo**
 
 [Hello World🌍](./hello-world/README.md)
+
+[Data types#️⃣](./data-types/README.md)
+
+[if-else✅](./ifelse/README.md)
