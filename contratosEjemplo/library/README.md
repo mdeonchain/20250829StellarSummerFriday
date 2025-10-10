@@ -26,10 +26,9 @@ Agrega un nuevo libro a la biblioteca.
 
 **Retorna:** `Result<u32, LibraryError>` - ID del libro creado o error
 
-rust
-
+```plaintext
 let book\_id = client.add\_book(\&title, \&author); // Retorna ID del libro (ej: 1)
-
+```
 ### `get_book(book_id: u32)`
 
 Obtiene un libro específico por su ID.
@@ -54,8 +53,6 @@ Toma prestado un libro disponible.
 
 **Retorna:** `Result<(), LibraryError>` - Éxito o error
 
-rust
-
 ```plaintext
 client.borrow_book(&1); // Cambia estado a Borrowed
 ```
@@ -69,8 +66,6 @@ Devuelve un libro prestado.
 * `book_id`: ID del libro (u32)
 
 **Retorna:** `Result<(), LibraryError>` - Éxito o error
-
-rust
 
 ```plaintext
 client.return_book(&1); // Cambia estado a Available
@@ -86,8 +81,6 @@ Reserva un libro disponible.
 
 **Retorna:** `Result<(), LibraryError>` - Éxito o error
 
-rust
-
 ```plaintext
 client.reserve_book(&1); // Cambia estado a Reserved
 ```
@@ -100,10 +93,9 @@ Obtiene todos los libros disponibles.
 
 **Retorna:** `Vec<Book>` - Lista de libros disponibles
 
-rust
-
+```plaintext
 let available\_books = client.get\_available\_books(); // Solo libros Available
-
+```
 ### `get_all_books()`
 
 Obtiene todos los libros en la biblioteca.
@@ -111,8 +103,6 @@ Obtiene todos los libros en la biblioteca.
 **Parámetros:** Ninguno
 
 **Retorna:** `Vec<Book>` - Lista completa de libros
-
-rust
 
 ```plaintext
 let all_books = client.get_all_books(); // Todos los libros sin filtrar
@@ -154,8 +144,6 @@ cargo test -- --nocapture
 * `test_get_all_books()` - Consulta completa del inventario
 
 ### Estructura de los tests
-
-rust
 
 ```plaintext
 #[test]
