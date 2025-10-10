@@ -136,7 +136,24 @@ Log 1: [...]
 ...
 === Test completado - Total de logs: X ===
 ```
+📦 Estructura del Código
 
+```plaintext
+├── lib.rs (Contrato principal)
+│   ├── PrimitivesContract
+│   ├── show_unsigned_integers()
+│   ├── show_signed_integers()
+│   ├── show_boolean()
+│   ├── show_symbol()
+│   ├── basic_math()
+│   ├── compare_numbers()
+│   ├── get_u32()
+│   ├── get_i128()
+│   ├── get_bool()
+│   └── get_symbol()
+└── test.rs
+    └── test_all_functions_with_logs()
+```
 ---
 ⬅️[**Contratos Ejemplo** ](../README.md) 
 ---
