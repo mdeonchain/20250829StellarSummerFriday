@@ -1,6 +1,6 @@
 ## Age Evaluator Smart Contract
 
-Un contrato inteligente desarrollado en Rust para la blockchain Soroban que evalúa la edad de los usuarios y determina sus privilegios según diferentes rangos etarios.
+Un contrato inteligente desarrollado en Rust para la blockchain Soroban que evalúa la edad de los usuarios y determina sus privilegios según diferentes rangos de edad.
 
 ## 📋 Descripción
 
@@ -24,11 +24,6 @@ Clasifica a una persona según su edad en tres categorías:
 
 **Ejemplo:**
 
- 
-
- 
-
-rust
 
 ```plaintext
 let result = client.evaluate_age(&15); // Retorna: "Adolescente"
@@ -41,12 +36,6 @@ Determina si una persona puede ejercer el derecho al voto.
 **Criterio:** Edad ≥ 18 años
 
 **Ejemplo:**
-
- 
-
- 
-
-rust
 
 ```plaintext
 let result = client.can_vote(&20); // Retorna: true
@@ -66,12 +55,6 @@ Retorna los privilegios disponibles según la edad:
 
 **Ejemplo:**
 
- 
-
- 
-
-rust
-
 ```plaintext
 let result = client.get_privileges(&19); // Retorna: "Puede votar"
 ```
@@ -82,12 +65,6 @@ El proyecto incluye una suite completa de tests que valida todas las funcionalid
 
 ### Test 1: Evaluación de Edad
 
- 
-
- 
-
-rust
-
 ```plaintext
 #[test] fn test_evaluate_age()
 ```
@@ -97,12 +74,6 @@ rust
 
 ### Test 2: Derecho al Voto
 
- 
-
- 
-
-rust
-
 ```plaintext
 #[test] fn test_can_vote()
 ```
@@ -111,8 +82,6 @@ rust
 * **Resultado esperado:**`true`
 
 ### Test 3: Privilegios por Edad
-
-rust
 
 ```plaintext
 #[test] fn test_get_privileges()
