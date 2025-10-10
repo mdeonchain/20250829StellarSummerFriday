@@ -1,4 +1,4 @@
-**Funciones en  Soroban**
+## Funciones en  Soroban
 ## Calculator Contract - Soroban
 
 Un contrato inteligente simple implementado en Soroban (Stellar) que proporciona operaciones básicas de calculadora y almacenamiento de resultados.
