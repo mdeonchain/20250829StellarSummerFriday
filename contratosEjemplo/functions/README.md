@@ -128,14 +128,21 @@ rust
     // 4. Ejecutar función y verificar resultado     let result = client.some_function(&param1, &param2);     assert_eq!(result, expected_value); }
 ```
 
-## 🔍 Estructura del Proyecto
+## 📦 Estructura del Código
 ```plaintext
-calculator-contract/
-├── src/
-│   ├── lib.rs          # Implementación del contrato
-│   └── test.rs         # Suite de tests
-├── Cargo.toml
-└── README.md
+├── lib.rs (Contrato principal)
+│   ├── CalculatorContract
+│   ├── greet()
+│   ├── add()
+│   ├── multiply()
+│   ├── calculate_and_store()
+│   └── get_last_calculation()
+└── test.rs
+    ├── test_greet()
+    ├── test_add()
+    ├── test_multiply()
+    ├── test_calculate_and_store()
+    └── test_get_last_calculation()
 ```
 ##
 
