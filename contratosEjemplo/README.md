@@ -17,25 +17,6 @@ Puedes usar **GitHub Codespaces**, que te permite trabajar directamente en la nu
 
 ---
 
-## 🧱 Preparación del entorno
-
-Una vez creada la máquina virtual o abierto el Codespace, ejecuta el siguiente comando en la terminal:
-
-```bash
-bash ./scripts/install.sh
-```
-
-
-**Antes necesitamos un entorno con todo configurado.**
-
-**GitHub Codespaces** es como tener tu propio **editor de código en la nube** ☁️💻.
-
-👉 Abres un **repositorio en GitHub** 📂  
-👉 Le das a **Codespaces** ▶️
-
-![](../images/codespaces.png)
-
-
   
 👉 ¡Y listo! Tienes un **VS Code en el navegador** 🌐⚡ con todas las dependencias y configuraciones necesarias 🎯
 
