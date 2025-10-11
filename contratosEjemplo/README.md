@@ -24,17 +24,16 @@ Perfecto para programar desde cualquier lugar 🌍 sin instalar nada en tu PC �
 
 ---
 
-**Preparación del entorno de trabajo**  
-Una vez hemos  creado la maquina virtual  
- 
+## 🛠️ Preparación del entorno
+Una vez que la máquina virtual esté lista (por ejemplo, mediante Codespaces), ejecuta el siguiente comando en la terminal para instalar todas las dependencias necesarias:
 
 ![](../images/terminal1.png)
 
-ejecutamos lo siguiente:
+`bash ./scripts/install.sh`
 
-```plaintext
- bash ./scripts/install.sh
-```
+Este script automatiza la configuración del entorno: instala herramientas necesarias, dependencias de Rust / Soroban, y prepara el sistema para compilar y desplegar contratos.
+
+---
 ---
 **Creación de una entidad un “alias” de una billetera:**
 Para poder desplegar contratos y hacer operaciones de escritura
