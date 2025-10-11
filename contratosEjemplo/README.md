@@ -34,6 +34,21 @@ Una vez que la máquina virtual esté lista (por ejemplo, mediante Codespaces), 
 Este script automatiza la configuración del entorno: instala herramientas necesarias, dependencias de Rust / Soroban, y prepara el sistema para compilar y desplegar contratos.
 
 ---
+## 🪙 Creación de una entidad (alias de billetera)
+
+Para desplegar contratos o ejecutar operaciones que modifiquen el estado en la red de pruebas (**testnet**), necesitas:
+
+1. Crear una cuenta o alias — que actuará como tu **identidad**
+2. Obtener fondos de prueba para esa cuenta
+
+Puedes lograr esto ejecutando:
+
+ 
+
+`stellar keys generate --global <alias> --network testnet --fund stellar keys address <alias>`
+
+* `stellar keys generate … --fund` genera la cuenta con fondos iniciales en testnet.
+* `stellar keys address <alias>` muestra la dirección pública asociada al alias, que usarás para interacciones con contratos.
 ---
 **Creación de una entidad un “alias” de una billetera:**
 Para poder desplegar contratos y hacer operaciones de escritura
