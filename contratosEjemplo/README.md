@@ -50,26 +50,18 @@ Puedes lograr esto ejecutando:
 * `stellar keys generate … --fund` genera la cuenta con fondos iniciales en testnet.
 * `stellar keys address <alias>` muestra la dirección pública asociada al alias, que usarás para interacciones con contratos.
 ---
-**Creación de una entidad un “alias” de una billetera:**
-Para poder desplegar contratos y hacer operaciones de escritura
-en los contratos necesitamos crear una  billetera con fondos en 
-la red de pruebas de la siguiente manera:
+## 🧪 Proyectos de ejemplo
 
-```plaintext
-stellar keys generate --global <entity> --network testnet --fund
-stellar keys address <alias>
-```
+Explora cada uno de estos contratos para practicar y aprender:
+
+| Proyecto | Descripción |
+|---|---|
+| [🌍 Hello World](./hello-world/README.md) | Primer contrato, despliegue e invocación sencilla |
+| [🔢 Data Types](./data-types/README.md) | Uso de tipos de datos básicos en Rust / Soroban |
+| [🔀 If–Else](./ifelse/README.md) | Lógica condicional en contratos |
+| [🧩 Funciones](./functions/README.md) | Definición y uso de funciones públicas/privadas |
+| [📚 Biblioteca](./library/README.md) | Código modular y reutilizable |
+
 ---
-**Proyectos ejemplo**
 
-[Hello World🌍](./hello-world/README.md)
-
-[Data types#️⃣](./data-types/README.md)
-
-[if-else✅](./ifelse/README.md)
-
-[Funciones🕶️](./functions/README.md)
-
-[Biblioteca 📜](./library/README.md)
-
-🏘️[**Principal** ](../README.md) 
+🏠 [Volver al README principal](../README.md)  
