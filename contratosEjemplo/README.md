@@ -1,3 +1,31 @@
+# 🧩 Contratos de Ejemplo – Soroban & Stellar
+
+Este directorio contiene contratos de ejemplo en **Rust** para comprender la lógica básica y las operaciones fundamentales en **Soroban**, el entorno de smart contracts de **Stellar**.
+
+---
+
+## ⚙️ Entorno de desarrollo
+
+Antes de comenzar, asegúrate de contar con un entorno configurado correctamente.  
+Puedes usar **GitHub Codespaces**, que te permite trabajar directamente en la nube ☁️ con un entorno similar a **VS Code**, sin instalar nada localmente.
+
+1. Abre el repositorio en GitHub.  
+2. Haz clic en **Code → Codespaces → Create codespace on main**.  
+3. ¡Listo! Tendrás un entorno listo para compilar, probar y desplegar contratos.
+
+![](../images/codespaces.png)
+
+---
+
+## 🧱 Preparación del entorno
+
+Una vez creada la máquina virtual o abierto el Codespace, ejecuta el siguiente comando en la terminal:
+
+```bash
+bash ./scripts/install.sh
+```
+
+
 **Antes necesitamos un entorno con todo configurado.**
 
 **GitHub Codespaces** es como tener tu propio **editor de código en la nube** ☁️💻.
